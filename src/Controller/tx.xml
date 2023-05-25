@@ -1,0 +1,345 @@
+<list>
+    <com.devcode.paymentiq.integration.creditcard.deposit.CreditcardDepositInput>
+        <created>2023-02-08 19:04:22.850 UTC</created>
+        <merchantId>100263003</merchantId>
+        <userId>192361669887467</userId>
+        <sessionId>696b755a-3e64-4a38-9aa9-72f3580638c6</sessionId>
+        <amount>10.00</amount>
+        <attributes class="linked-hash-map">
+            <entry>
+                <string>labelId</string>
+                <string>luckyspinscd</string>
+            </entry>
+            <entry>
+                <string>productId</string>
+                <string>casino</string>
+            </entry>
+            <entry>
+                <string>hostUri</string>
+                <string>https://luckyspins.com</string>
+            </entry>
+            <entry>
+                <string>bootstrapVersion</string>
+                <string>1.3.16</string>
+            </entry>
+            <entry>
+                <string>initiatingClient</string>
+                <string>piq-standardized-cashier-1.3.3</string>
+            </entry>
+            <entry>
+                <string>channelId</string>
+                <string>Other</string>
+            </entry>
+            <entry>
+                <string>channelDetails</string>
+                <string>Linux | - | Firefox | 102.0 | isMobile: false | 2560 x 1440</string>
+            </entry>
+        </attributes>
+        <storeAccount>false</storeAccount>
+        <ipAddr>86.16.133.194</ipAddr>
+        <acceptHeader>application/json, text/plain, */*</acceptHeader>
+        <userAgentHeader>Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0</userAgentHeader>
+        <acceptLanguageHeader>en-GB,en;q=0.7,de-DE;q=0.3</acceptLanguageHeader>
+        <refererHeader>https://pay.paymentiq.io/</refererHeader>
+        <apiSource>FRONT_API</apiSource>
+        <chainSource>com.devcode.paymentiq.integration.creditcard.deposit.CreditcardDepositProcessChain</chainSource>
+        <locale>en_CA</locale>
+        <cardHolder>Leo</cardHolder>
+        <userPspAccount>b99e462827974a0a94901d294afcd6fa</userPspAccount>
+    </com.devcode.paymentiq.integration.creditcard.deposit.CreditcardDepositInput>
+    <com.devcode.paymentiq.integration.cmds.VersionTxCmd>
+        <created>2023-02-08 19:04:22.872 UTC</created>
+        <paymentIQVersion>1.4.159.1</paymentIQVersion>
+    </com.devcode.paymentiq.integration.cmds.VersionTxCmd>
+    <com.devcode.paymentiq.integration.merchant.MerchantVerifyUserReq>
+        <created>2023-02-08 19:04:22.880 UTC</created>
+        <data>
+            <entry>
+                <string>sessionId</string>
+                <string>696b755a-3e64-4a38-9aa9-72f3580638c6</string>
+            </entry>
+            <entry>
+                <string>userId</string>
+                <string>192361669887467</string>
+            </entry>
+        </data>
+    </com.devcode.paymentiq.integration.merchant.MerchantVerifyUserReq>
+    <com.devcode.paymentiq.integration.merchant.MerchantVerifyUserRes>
+        <created>2023-02-08 19:04:23.238 UTC</created>
+        <statusCode>SUCCESS</statusCode>
+        <userId>192361669887467</userId>
+        <success>true</success>
+        <errCode>0</errCode>
+        <requestDurationMs>350</requestDurationMs>
+        <attributes class="linked-hash-map">
+            <entry>
+                <string>countryip</string>
+                <string>54.155.236.2</string>
+            </entry>
+        </attributes>
+        <updateState>true</updateState>
+        <userCat>real_user</userCat>
+        <firstName>VIKI</firstName>
+        <lastName>CANADA</lastName>
+        <street>899 ESSENDENE AVENUE</street>
+        <city>ABBOTSFORD</city>
+        <zip>V2S2H7</zip>
+        <state>BC</state>
+        <country>CAN</country>
+        <email>viki_canada@gmail.com</email>
+        <dob>1992-05-12</dob>
+        <mobile>+1-6048544839</mobile>
+        <balance>2.0</balance>
+        <balanceCy>CAD</balanceCy>
+        <locale>en_CA</locale>
+        <kycStatus></kycStatus>
+        <sex>FEMALE</sex>
+        <threeDS2 class="linked-hash-map">
+            <entry>
+                <string>cardholderAccount</string>
+                <linked-hash-map>
+                    <entry>
+                        <string>acctInfo</string>
+                        <linked-hash-map>
+                            <entry>
+                                <string>chAccDate</string>
+                                <string>20221201</string>
+                            </entry>
+                            <entry>
+                                <string>chAccPwChange</string>
+                                <string>20221201</string>
+                            </entry>
+                            <entry>
+                                <string>chAccChange</string>
+                                <string>20221201</string>
+                            </entry>
+                            <entry>
+                                <string>suspiciousAccActivity</string>
+                                <string>01</string>
+                            </entry>
+                        </linked-hash-map>
+                    </entry>
+                </linked-hash-map>
+            </entry>
+        </threeDS2>
+    </com.devcode.paymentiq.integration.merchant.MerchantVerifyUserRes>
+    <com.devcode.paymentiq.service.fraud.ip.geo.IPGeoBlockRes>
+        <created>2023-02-08 19:04:23.263 UTC</created>
+        <statusCode>SUCCESS</statusCode>
+        <version>2</version>
+        <ipCountryCode>GBR</ipCountryCode>
+        <ipCountryName>United Kingdom</ipCountryName>
+        <ipRegionCode>HAM</ipRegionCode>
+        <ipCity>Fleet</ipCity>
+        <ipRegionName>Hampshire</ipRegionName>
+        <ipContinentCode>EU</ipContinentCode>
+        <ipContinentName>Europe</ipContinentName>
+        <ipLatitude>51.2796</ipLatitude>
+        <ipLongitude>-0.8337</ipLongitude>
+        <ipPostalCode>GU51</ipPostalCode>
+    </com.devcode.paymentiq.service.fraud.ip.geo.IPGeoBlockRes>
+    <com.devcode.paymentiq.service.fraud.bin.BinBlockRes>
+        <created>2023-02-08 19:04:23.295 UTC</created>
+        <statusCode>SUCCESS</statusCode>
+        <binId>17308</binId>
+        <bin>516075</bin>
+        <issuerName>CAPITAL ONE BANK (CANADA BRANCH)</issuerName>
+        <issuerCountryCode>CAN</issuerCountryCode>
+        <binType>CREDIT</binType>
+        <issuerCountryName>CANADA</issuerCountryName>
+        <cardBrand>MASTERCARD</cardBrand>
+        <cardCategory>CONSUMER_CREDIT</cardCategory>
+    </com.devcode.paymentiq.service.fraud.bin.BinBlockRes>
+    <com.devcode.paymentiq.integration.cmds.TransferTxCmd>
+        <created>2023-02-08 19:04:23.302 UTC</created>
+        <amount>10.00 CAD</amount>
+        <fee>0.00 CAD</fee>
+        <txAmount>10.00 CAD</txAmount>
+        <feeDeducted>false</feeDeducted>
+    </com.devcode.paymentiq.integration.cmds.TransferTxCmd>
+    <com.devcode.service.decisiontable.rule.MatchedRulesCmd>
+        <created>2023-02-08 19:04:23.298 UTC</created>
+        <matchedRoutingRules>
+            <com.devcode.service.decisiontable.rule.MatchedRule>
+                <id>100263000_RO_15_62</id>
+                <matchDateTime>2023-02-08 19:04:23.297 UTC</matchDateTime>
+            </com.devcode.service.decisiontable.rule.MatchedRule>
+            <com.devcode.service.decisiontable.rule.MatchedRule>
+                <id>100263000_LI_119_03</id>
+                <matchDateTime>2023-02-08 19:04:23.306 UTC</matchDateTime>
+            </com.devcode.service.decisiontable.rule.MatchedRule>
+            <com.devcode.service.decisiontable.rule.MatchedRule>
+                <id>100263003_PM_113_02</id>
+                <matchDateTime>2023-02-08 19:04:23.321 UTC</matchDateTime>
+            </com.devcode.service.decisiontable.rule.MatchedRule>
+            <com.devcode.service.decisiontable.rule.MatchedRule>
+                <id>100263000_UP_01_01</id>
+                <matchDateTime>2023-02-08 19:04:23.332 UTC</matchDateTime>
+            </com.devcode.service.decisiontable.rule.MatchedRule>
+        </matchedRoutingRules>
+        <matchedRulesStr>100263000_RO_15_62,100263000_LI_119_03,100263003_PM_113_02,100263000_UP_01_01</matchedRulesStr>
+    </com.devcode.service.decisiontable.rule.MatchedRulesCmd>
+    <com.devcode.paymentiq.service.provider.ProviderRoutingTxCmd>
+        <created>2023-02-08 19:04:23.297 UTC</created>
+        <rule>RO_15</rule>
+        <displayId>62</displayId>
+        <pspAccount>CC_3DS</pspAccount>
+        <psp>Ilixium</psp>
+        <beanCommand>ilixiumDepositCmd</beanCommand>
+    </com.devcode.paymentiq.service.provider.ProviderRoutingTxCmd>
+    <com.devcode.paymentiq.service.kyc.KycResult>
+        <created>2023-02-08 19:04:23.366 UTC</created>
+        <results>
+            <com.devcode.paymentiq.service.kyc.KycProviderResult>
+                <txId>1596375</txId>
+                <updated>2022-12-01 09:52:21.0 UTC</updated>
+                <provider>DiD_GDC</provider>
+                <status>NOT_VERIFIED</status>
+                <ageStatus>NOT_VERIFIED</ageStatus>
+                <idStatus>NOT_VERIFIED</idStatus>
+                <addressStatus>NOT_VERIFIED</addressStatus>
+            </com.devcode.paymentiq.service.kyc.KycProviderResult>
+        </results>
+    </com.devcode.paymentiq.service.kyc.KycResult>
+    <com.devcode.paymentiq.integration.merchant.MerchantAuthorizeTxRes>
+        <created>2023-02-08 19:04:23.891 UTC</created>
+        <statusCode>SUCCESS</statusCode>
+        <userId>192361669887467</userId>
+        <success>true</success>
+        <errCode>0</errCode>
+        <requestDurationMs>515</requestDurationMs>
+        <attributes/>
+        <updateState>true</updateState>
+        <authCode>7ac6cc33-513c-4304-ae39-b53ef7344e8b</authCode>
+        <merchantTxId>202302087758389</merchantTxId>
+    </com.devcode.paymentiq.integration.merchant.MerchantAuthorizeTxRes>
+    <com.devcode.paymentiq.integration.cmds.StateTxCmd>
+        <created>2023-02-08 19:04:23.989 UTC</created>
+        <statusCode>WAITING_INPUT</statusCode>
+    </com.devcode.paymentiq.integration.cmds.StateTxCmd>
+    <com.devcode.paymentiq.service.customer.cmd.CustomerInfoTxCmd>
+        <created>2023-02-08 19:04:24.33 UTC</created>
+        <customerId>190</customerId>
+    </com.devcode.paymentiq.service.customer.cmd.CustomerInfoTxCmd>
+    <com.devcode.paymentiq.integration.creditcard.threedsecure2.Creditcard3DSecure2DataCollectResultInput>
+        <created>2023-02-08 19:04:25.7 UTC</created>
+        <authRequest>
+            <messageVersion>2.2.0</messageVersion>
+            <deviceChannel>BROWSER</deviceChannel>
+            <messageCategory>PAYMENT</messageCategory>
+            <threeDSCompInd>NO</threeDSCompInd>
+            <threeDSRequestor>
+                <threeDSRequestorAuthenticationInd>PAYMENT_TRANSACTION</threeDSRequestorAuthenticationInd>
+                <threeDSRequestorAuthenticationInfo/>
+                <threeDSRequestorChallengeInd>NO_PREFERENCE</threeDSRequestorChallengeInd>
+            </threeDSRequestor>
+            <threeDSServerTransID>54e8b174-bbe5-4def-80fc-d7bef9b177a4</threeDSServerTransID>
+            <cardholderAccount>
+                <cardExpiryDate>2026-08</cardExpiryDate>
+                <acctInfo>
+                    <chAccDate>2022-12-01</chAccDate>
+                    <chAccChange>2022-12-01</chAccChange>
+                    <chAccPwChange>2022-12-01</chAccPwChange>
+                    <txnActivityDay>3</txnActivityDay>
+                    <txnActivityYear>15</txnActivityYear>
+                    <provisionAttemptsDay>2</provisionAttemptsDay>
+                    <nbPurchaseAccount>0</nbPurchaseAccount>
+                    <suspiciousAccActivity>NO_SUSPICIOUS_ACTIVITY_OBSERVED</suspiciousAccActivity>
+                    <paymentAccInd>DURING_THIS_TRANSACTION</paymentAccInd>
+                </acctInfo>
+                <scheme>MASTERCARD</scheme>
+            </cardholderAccount>
+            <cardholder>
+                <billAddrCity>ABBOTSFORD</billAddrCity>
+                <billAddrCountry>
+                    <name>CANADA</name>
+                    <twoAlpha>CA</twoAlpha>
+                    <threeAlpha>CAN</threeAlpha>
+                    <threeDigit>124</threeDigit>
+                </billAddrCountry>
+                <billAddrLine1>899 ESSENDENE AVENUE</billAddrLine1>
+                <billAddrPostCode>V2S2H7</billAddrPostCode>
+                <email>viki_canada@gmail.com</email>
+                <mobilePhone>
+                    <cc>1</cc>
+                    <subscriber>6048544839</subscriber>
+                </mobilePhone>
+                <cardholderName>Leo</cardholderName>
+            </cardholder>
+            <relaxRegionalValidationRules>true</relaxRegionalValidationRules>
+            <purchase>
+                <purchaseAmount>10.00 CAD</purchaseAmount>
+                <purchaseDate>2023-02-08T19:04:23</purchaseDate>
+                <transType>GOODS_OR_SERVICE_PURCHASE</transType>
+            </purchase>
+            <acquirer>
+                <acquirerBin>12345</acquirerBin>
+                <acquirerMerchantId>4130082</acquirerMerchantId>
+            </acquirer>
+            <merchant>
+                <notificationURL>https://api.paymentiq.io/paymentiq/api/creditcard/deposit/3ds2/auth/notification?locale=en_CA</notificationURL>
+                <threeDSRequestorId>100263003</threeDSRequestorId>
+            </merchant>
+            <browserInformation>
+                <browserAcceptHeader>application/json, text/plain, */*</browserAcceptHeader>
+                <browserIP>86.16.133.194</browserIP>
+                <browserJavaEnabled>false</browserJavaEnabled>
+                <browserLanguage>en-GB</browserLanguage>
+                <browserColorDepth>TWENTY_FOUR_BITS</browserColorDepth>
+                <browserScreenHeight>1440</browserScreenHeight>
+                <browserScreenWidth>2560</browserScreenWidth>
+                <browserWindowWidth>2560</browserWindowWidth>
+                <browserWindowHeight>1246</browserWindowHeight>
+                <browserTZ>0</browserTZ>
+                <browserUserAgent>Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0</browserUserAgent>
+                <challengeWindowSize>SIZE_600_X_400</challengeWindowSize>
+                <browserJavascriptEnabled>true</browserJavascriptEnabled>
+            </browserInformation>
+            <sdkInformation/>
+            <nonStandardFields/>
+        </authRequest>
+    </com.devcode.paymentiq.integration.creditcard.threedsecure2.Creditcard3DSecure2DataCollectResultInput>
+    <com.devcode.paymentiq.integration.creditcard.threedsecure.Creditcard3DSecureEnrollmentRes>
+        <created>2023-02-08 19:04:25.473 UTC</created>
+        <provider>Ilixium</provider>
+        <statusCode>WAITING_3D_SECURE</statusCode>
+        <responseCode>200</responseCode>
+        <pspRefId>100263003A1207031061</pspRefId>
+        <pspStatusCode>PENDING</pspStatusCode>
+        <pspStatusMsg>3-D Secure required</pspStatusMsg>
+        <pspResponseMsg>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;paymentResponse&gt;&lt;version&gt;2&lt;/version&gt;&lt;type&gt;AUTH&lt;/type&gt;&lt;customerId&gt;192361669887467&lt;/customerId&gt;&lt;merchant&gt;&lt;merchantId&gt;4130082&lt;/merchantId&gt;&lt;accountId&gt;4131306&lt;/accountId&gt;&lt;/merchant&gt;&lt;transaction&gt;&lt;amount&gt;1000&lt;/amount&gt;&lt;currency&gt;CAD&lt;/currency&gt;&lt;merchantRef&gt;100263003A1207031061&lt;/merchantRef&gt;&lt;gatewayRef&gt;3657b3b7-3c01-493e-9d74-0b3d23cc5e94&lt;/gatewayRef&gt;&lt;transactionType&gt;ECOMMERCE&lt;/transactionType&gt;&lt;/transaction&gt;&lt;status&gt;&lt;code&gt;PENDING&lt;/code&gt;&lt;message&gt;3-D Secure required&lt;/message&gt;&lt;reasons&gt;&lt;reason&gt;502&lt;/reason&gt;&lt;/reasons&gt;&lt;timestamp&gt;2023-02-08T19:04:25.000Z&lt;/timestamp&gt;&lt;/status&gt;&lt;paymentHistory&gt;&lt;paymentAttempt&gt;&lt;order&gt;1&lt;/order&gt;&lt;timestamp&gt;2023-02-08T19:04:25.000Z&lt;/timestamp&gt;&lt;code&gt;PENDING&lt;/code&gt;&lt;message&gt;3-D Secure required&lt;/message&gt;&lt;amount&gt;1000&lt;/amount&gt;&lt;currency&gt;CAD&lt;/currency&gt;&lt;paymentMethodType&gt;CARD&lt;/paymentMethodType&gt;&lt;token&gt;&lt;/token&gt;&lt;cardResponse&gt;&lt;validDate&gt;022023&lt;/validDate&gt;&lt;expiryDate&gt;082026&lt;/expiryDate&gt;&lt;cardBin&gt;516075&lt;/cardBin&gt;&lt;cardLastFour&gt;1727&lt;/cardLastFour&gt;&lt;cardIssuingBank&gt;Canadian Imperial Bank Of Commerce&lt;/cardIssuingBank&gt;&lt;cardIssuingCountry&gt;CAN&lt;/cardIssuingCountry&gt;&lt;cardType&gt;MASTERCARD_CREDIT&lt;/cardType&gt;&lt;cvv&gt;NO_INFORMATION&lt;/cvv&gt;&lt;avsAddress&gt;NO_INFORMATION&lt;/avsAddress&gt;&lt;avsPostcode&gt;NO_INFORMATION&lt;/avsPostcode&gt;&lt;threeDSecureStatus&gt;PENDING&lt;/threeDSecureStatus&gt;&lt;threeDSecureAcsUrl&gt;https://ipframev2.ilixium.com/ipframe/web/threedsmethodcheck?ref=65936823&lt;/threeDSecureAcsUrl&gt;&lt;threeDSecureMd&gt;YWFzZGxtMzJrbDIzam4yYmprMmgzajRoajEybDNocjk4cXc=&lt;/threeDSecureMd&gt;&lt;threeDSecurePaReq&gt;RU5DT0RFRF9QQVJFUQ==&lt;/threeDSecurePaReq&gt;&lt;/cardResponse&gt;&lt;/paymentAttempt&gt;&lt;/paymentHistory&gt;&lt;/paymentResponse&gt;</pspResponseMsg>
+        <paRequest>RU5DT0RFRF9QQVJFUQ==</paRequest>
+        <pspMerchantData>YWFzZGxtMzJrbDIzam4yYmprMmgzajRoajEybDNocjk4cXc=</pspMerchantData>
+        <issuerUrl>https://ipframev2.ilixium.com/ipframe/web/threedsmethodcheck?ref=65936823</issuerUrl>
+        <enrolled>true</enrolled>
+        <externalFlow>false</externalFlow>
+    </com.devcode.paymentiq.integration.creditcard.threedsecure.Creditcard3DSecureEnrollmentRes>
+    <com.devcode.paymentiq.integration.creditcard.threedsecure.Creditcard3DSecureCallbackInput>
+        <created>2023-02-08 19:07:03.685 UTC</created>
+        <paResponse>MTAwMjYzMDAzQTEyMDcwMzEwNjE=</paResponse>
+        <merchantData>YWFzZGxtMzJrbDIzam4yYmprMmgzajRoajEybDNocjk4cXc=:100263003:1207031061</merchantData>
+        <merchantId>100263003</merchantId>
+        <txId>1207031061</txId>
+        <psp>Ilixium</psp>
+    </com.devcode.paymentiq.integration.creditcard.threedsecure.Creditcard3DSecureCallbackInput>
+    <com.devcode.paymentiq.integration.creditcard.deposit.CreditcardDepositTxRes>
+        <created>2023-02-08 19:07:04.90 UTC</created>
+        <provider>Ilixium</provider>
+        <statusCode>ERR_SYSTEM_ERROR</statusCode>
+        <responseCode>200</responseCode>
+        <pspStatusCode>ERROR</pspStatusCode>
+        <pspStatusMsg> : </pspStatusMsg>
+        <pspResponseMsg>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;paymentResponse&gt;&lt;version&gt;2&lt;/version&gt;&lt;type&gt;THREED_SECURE_COMPLETE&lt;/type&gt;&lt;customerId&gt;192361669887467&lt;/customerId&gt;&lt;merchant&gt;&lt;merchantId&gt;4130082&lt;/merchantId&gt;&lt;accountId&gt;4131306&lt;/accountId&gt;&lt;/merchant&gt;&lt;transaction&gt;&lt;merchantRef&gt;100263003A1207031061&lt;/merchantRef&gt;&lt;gatewayRef&gt;3657b3b7-3c01-493e-9d74-0b3d23cc5e94&lt;/gatewayRef&gt;&lt;transactionType&gt;ECOMMERCE&lt;/transactionType&gt;&lt;/transaction&gt;&lt;status&gt;&lt;code&gt;ERROR&lt;/code&gt;&lt;timestamp&gt;2023-02-08T19:07:04.000Z&lt;/timestamp&gt;&lt;/status&gt;&lt;paymentHistory&gt;&lt;paymentAttempt&gt;&lt;order&gt;1&lt;/order&gt;&lt;timestamp&gt;2023-02-08T19:07:04.000Z&lt;/timestamp&gt;&lt;code&gt;ERROR&lt;/code&gt;&lt;token&gt;&lt;/token&gt;&lt;/paymentAttempt&gt;&lt;/paymentHistory&gt;&lt;/paymentResponse&gt;</pspResponseMsg>
+    </com.devcode.paymentiq.integration.creditcard.deposit.CreditcardDepositTxRes>
+    <com.devcode.paymentiq.integration.merchant.MerchantCancelTxRes>
+        <created>2023-02-08 19:07:04.335 UTC</created>
+        <statusCode>SUCCESS</statusCode>
+        <userId>192361669887467</userId>
+        <success>true</success>
+        <errCode>0</errCode>
+        <requestDurationMs>170</requestDurationMs>
+        <attributes/>
+        <updateState>true</updateState>
+        <retry>true</retry>
+    </com.devcode.paymentiq.integration.merchant.MerchantCancelTxRes>
+</list>

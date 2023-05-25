@@ -1,0 +1,56 @@
+ 100202003A1266742794       -50.00 GBP    2023-03-30 14:23:36
+
+ <com.devcode.paymentiq.integration.truelayer.callback.TrueLayerRedirectInput>
+        <created>2023-03-30 14:24:23.414 UTC</created>
+        <ref>1B5C8EA367D715A865BD09942EBDFFB3E49293333DB0F0360DEC7D89734BAFB2</ref>
+    </com.devcode.paymentiq.integration.truelayer.callback.TrueLayerRedirectInput>
+    <com.devcode.paymentiq.integration.truelayer.txres.TrueLayerBankAccountVerificationTxRes>
+        <created>2023-03-30 14:24:24.10 UTC</created>
+        <provider>TrueLayer</provider>
+        <statusCode>ERR_DECLINED_OTHER_REASON</statusCode>
+        <responseCode>200</responseCode>
+        <pspStatusMsg></pspStatusMsg>
+        <pspResponseMsg>{&quot;verified&quot;:false,&quot;account_holder_name&quot;:&quot;HATTON EMERY RJ&quot;,&quot;match_score&quot;:52,&quot;report&quot;:[{&quot;verifiable&quot;:true,&quot;currency&quot;:&quot;GBP&quot;,&quot;provider_id&quot;:&quot;ob-natwest&quot;,&quot;account_type&quot;:&quot;CURRENT&quot;,&quot;account_holders&quot;:[{&quot;name&quot;:&quot;HATTON EMERY RJ&quot;,&quot;verified&quot;:false,&quot;match_score&quot;:52}],&quot;display_name&quot;:&quot;SELECT ACCOUNT&quot;,&quot;iban&quot;:&quot;GB38NWBK01036930339952&quot;,&quot;swift_bic&quot;:&quot;NWBKGB2L&quot;,&quot;account_number&quot;:&quot;30339952&quot;,&quot;sort_code&quot;:&quot;01-03-69&quot;}]}</pspResponseMsg>
+        <schemeId>faster_payments_service</schemeId>
+        <userId>HT1003243</userId>
+        <merchantId>100202003</merchantId>
+        <txType>BankWithdrawal</txType>
+    </com.devcode.paymentiq.integration.truelayer.txres.TrueLayerBankAccountVerificationTxRes>
+
+100202003A1266746359 -50.00 GBP    2023-03-30 14:26:42
+
+<com.devcode.paymentiq.integration.truelayer.callback.TrueLayerRedirectInput>
+        <created>2023-03-30 14:27:22.920 UTC</created>
+        <ref>47041F336953F0EBCEEA86BED89609D55FF2C0AC20503182504F6A69B855032B</ref>
+    </com.devcode.paymentiq.integration.truelayer.callback.TrueLayerRedirectInput>
+    <com.devcode.paymentiq.integration.truelayer.txres.TrueLayerBankAccountVerificationTxRes>
+        <created>2023-03-30 14:27:23.67 UTC</created>
+        <provider>TrueLayer</provider>
+        <statusCode>ERR_DECLINED_OTHER_REASON</statusCode>
+        <responseCode>200</responseCode>
+        <pspStatusMsg></pspStatusMsg>
+        <pspResponseMsg>{&quot;verified&quot;:false,&quot;account_holder_name&quot;:&quot;HATTON EMERY RJ&quot;,&quot;match_score&quot;:52,&quot;report&quot;:[{&quot;verifiable&quot;:true,&quot;currency&quot;:&quot;GBP&quot;,&quot;provider_id&quot;:&quot;ob-natwest&quot;,&quot;account_type&quot;:&quot;CURRENT&quot;,&quot;account_holders&quot;:[{&quot;name&quot;:&quot;HATTON EMERY RJ&quot;,&quot;verified&quot;:false,&quot;match_score&quot;:52}],&quot;display_name&quot;:&quot;SELECT ACCOUNT&quot;,&quot;iban&quot;:&quot;GB38NWBK01036930339952&quot;,&quot;swift_bic&quot;:&quot;NWBKGB2L&quot;,&quot;account_number&quot;:&quot;30339952&quot;,&quot;sort_code&quot;:&quot;01-03-69&quot;}]}</pspResponseMsg>
+        <schemeId>faster_payments_service</schemeId>
+        <userId>HT1003243</userId>
+        <merchantId>100202003</merchantId>
+        <txType>BankWithdrawal</txType>
+    </com.devcode.paymentiq.integration.truelayer.txres.TrueLayerBankAccountVerificationTxRes>
+
+100202003A1266962344    -50.00 GBP    2023-03-30 17:38:01
+
+<com.devcode.paymentiq.integration.truelayer.callback.TrueLayerRedirectInput>
+        <created>2023-03-30 17:38:50.952 UTC</created>
+        <ref>99A12B291927D3808C9E4002F120369110DECB6A3911651DFD29488C9BE7ADD3</ref>
+    </com.devcode.paymentiq.integration.truelayer.callback.TrueLayerRedirectInput>
+    <com.devcode.paymentiq.integration.truelayer.txres.TrueLayerBankAccountVerificationTxRes>
+        <created>2023-03-30 17:38:51.105 UTC</created>
+        <provider>TrueLayer</provider>
+        <statusCode>ERR_DECLINED_OTHER_REASON</statusCode>
+        <responseCode>200</responseCode>
+        <pspStatusMsg></pspStatusMsg>
+        <pspResponseMsg>{&quot;verified&quot;:false,&quot;account_holder_name&quot;:&quot;HATTON EMERY RJ&quot;,&quot;match_score&quot;:52,&quot;report&quot;:[{&quot;verifiable&quot;:true,&quot;currency&quot;:&quot;GBP&quot;,&quot;provider_id&quot;:&quot;ob-natwest&quot;,&quot;account_type&quot;:&quot;CURRENT&quot;,&quot;account_holders&quot;:[{&quot;name&quot;:&quot;HATTON EMERY RJ&quot;,&quot;verified&quot;:false,&quot;match_score&quot;:52}],&quot;display_name&quot;:&quot;SELECT ACCOUNT&quot;,&quot;iban&quot;:&quot;GB38NWBK01036930339952&quot;,&quot;swift_bic&quot;:&quot;NWBKGB2L&quot;,&quot;account_number&quot;:&quot;30339952&quot;,&quot;sort_code&quot;:&quot;01-03-69&quot;}]}</pspResponseMsg>
+        <schemeId>faster_payments_service</schemeId>
+        <userId>HT1003243</userId>
+        <merchantId>100202003</merchantId>
+        <txType>BankWithdrawal</txType>
+    </com.devcode.paymentiq.integration.truelayer.txres.TrueLayerBankAccountVerificationTxRes>
